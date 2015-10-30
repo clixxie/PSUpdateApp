@@ -18,7 +18,7 @@ NSLocalizedStringFromTable(key, @"PSUdateApp", nil)
 
 #define APPLE_URL @"http://itunes.apple.com/lookup?"
 
-#define kCurrentAppVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define kCurrentAppVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFCustomBundleShortVersionString"]
 
 #ifdef DEBUG
 #define DebugLog(...) NSLog(__VA_ARGS__)
