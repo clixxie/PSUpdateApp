@@ -16,7 +16,7 @@ NSLocalizedStringFromTable(key, @"PSUdateApp", nil)
 
 #define APPLE_URL @"http://itunes.apple.com/lookup?"
 
-#define kCurrentAppVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define kCurrentAppVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFCustomBundleShortVersionString"]
 
 @interface PSUpdateApp () <UIAlertViewDelegate> {
     NSString *_newVersion;
