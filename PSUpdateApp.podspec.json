@@ -1,6 +1,6 @@
 {
   "name": "PSUpdateApp",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "MIT",
   "summary": "PSUpdateApp is a simple method to notify users that a new version of your iOS app is available.",
   "homepage": "https://github.com/danielebogo/PSUpdateApp",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/danielebogo/PSUpdateApp.git",
-    "tag": "2.0.6"
+    "tag": "2.0.7"
   },
   "platforms": {
     "ios": "6.0"
